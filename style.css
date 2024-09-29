@@ -1,3 +1,19 @@
+.magicNoWrap { 
+    white-space: nowrap; 
+    } 
+
+.tc {
+    text-align: center;
+  }
+
+.tl {
+    text-align: left;
+  }
+
+  .tr {
+    text-align: right;
+  }
+
 .parentcode {
     height: 100px;
     display: flex;
