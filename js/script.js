@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const sidebar = document.querySelector('.sidebar[data-v-394c46cd]');
     
     btn.addEventListener('click', function() {
-    if (sidebar.style.display === 'block' || !sidebar.style.display) {
-    sidebar.style.display = 'none'; // Показываем меню
+    if (sidebar.style.display === 'none' || !sidebar.style.display) {
+    sidebar.style.display = 'block'; // Показываем меню
     } else {
-    sidebar.style.display = 'block'; // Скрываем меню
+    sidebar.style.display = 'none'; // Скрываем меню
     }
     });
     });

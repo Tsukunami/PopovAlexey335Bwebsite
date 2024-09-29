@@ -810,7 +810,7 @@ a.version-number[data-v-24c15db4] {
 }
 
 .sidebar[data-v-394c46cd] {
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -841,6 +841,8 @@ a.version-number[data-v-24c15db4] {
     .sidebar[data-v-394c46cd] {
         width:var(--sidebar-width)
     }
+ 
+    
 }
 
 .theme-container.sidebar-open .sidebar[data-v-394c46cd] {
